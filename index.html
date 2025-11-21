@@ -31,19 +31,31 @@
 Nossa tradição Kongo Angola adormece.
 
 Em meados de maio de 2021 Tata Kamulepambo se desliga de seu templo feitor sendo assim, passamos a cultuar e seguir as orientações dos nossos mestres Sr Marabô e Dona Sete Saias, além de incansavelmente buscar conhecimentos que agregasse ao nosso culto. A busca foi incansável, tantas tradições estudadas, visitadas, vista de perto, mas, nenhuma nos agradava ate que em meados de agosto conheço o homem que se tornara nosso Tata. O senhor Tata Nkasumbire tradição kongo – Kimbanda Vila Nova Tranca Ruas. Um encontro que estava marcado a séculos pelos ancestrais e que só ocorreu agora cheio de amor, carinho, respeito e honra. Assim, voltamos aos braços de nossa tradição Kongo dessa vez com uma pessoa impar no que faz e referencia no brasil no que diz respeito a cultura Kongo.
-        </p>
-    </section>
+</p>
+</section>
 </main>
 <style>
 *{
  margin: 0px;
 
 }
+:root{
+    /* Exemplo da Paleta Sóbria e Forte */
+  --cor-fundo-principal: #0C0C0C;
+  --cor-texto-claro: #F5F5F5;
+  --cor-acao-primaria: #B8860B;
+}
+body {
+  background-color: var(--cor-fundo-principal);
+  color: var(--cor-texto-claro);
+  font-family: 'Montserrat', sans-serif; /* Exemplo da fonte */
+}
 header.topo{
     display: flex;
     width: 100%;
     height: auto;
     background-color: rgb(7, 7, 11);
+    color: var(--cor-texto-claro);
     border-bottom: white solid 1px;
     min-width: 350px;
     /*cabeçalho do topo do site*/
@@ -76,7 +88,8 @@ h1.casamarabo{
     align-content: center;
     width: 100%;
     height: auto;
-    color: rgb(254, 252, 252);
+    color: var(--cor-acao-primaria);
+  
 
  /*elemento pai que tem o conteúdo que se refere ao título 
  do topo: "Casa de Marabô "*/
@@ -94,7 +107,7 @@ nav.menu{
     /*menu para navegação*/
 }
 nav.menu a{
-    color: rgb(254, 252, 252);
+    color: var(--cor-texto-claro);
     text-decoration: none;
     font-size: 60%;
     text-align: center;
@@ -109,7 +122,8 @@ main.principal{
     align-items: center;
     min-width: 350px;
     width: 100%;
-    background-color: rgb(7, 7, 11);
+    height: 100%;
+    background-color: var(--cor-fundo-principal);
     height: auto;
    
 }
@@ -124,8 +138,9 @@ img.foto{
     
 }
 section.sobrenos{
-     max-width: 400px;
+     max-width: 500px;
      border: 1px solid white;
+  
 }
 section.sobrenos, p{
   
@@ -133,9 +148,9 @@ section.sobrenos, p{
     line-height: 25.5px;
     height: auto;
     font-size: 17px;
-    font-weight:bolder;
+    font-weight:bold;
     color: red;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: sans-serif;
     
 
 }
@@ -180,10 +195,12 @@ largura máxima definida em 900px, apo*/
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 100%;
     height: auto;
 }
 section.sobrenos, p{
-    max-width: 600px;
+
+    max-width: 300px;
     padding: 5px;
     line-height: 25px;
 
